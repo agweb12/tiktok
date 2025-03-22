@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background: linear-gradient(247deg, #01101c,#01101c, #001d20, #01101c);
+    background-size: 1800% 1800%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-animation: FadeIn 7s ease infinite;
+    -moz-animation: FadeIn 7s ease infinite;
+    animation: FadeIn 7s ease infinite;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #161823;
+    padding: 10px;
+    min-width: 100%;
+}
+.navbar img{
+    margin: 0;
+    width: 100px;
+    height: auto;
+    background-color: white;
+    padding: 0px 15px;
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 13px;
+    font-weight:700;
+    letter-spacing: .9px;
+    transition: all .3s ease-in-out;
+}
+.navbar ul a:hover{
+    color: #ff4d4d;
+}
+
+.navbar ul button {
+    background-color: #cf2b25;
+    color: white;
+    border: none;
+    padding: 10px 6px;
+    margin: 0px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.navbar ul button:hover{
+    background-color: #ff4d4d;
+}
+
+.section-primary
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+.section-primary .section-primary80{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 60%;
+}
+.section-primary80 h1{
+    color: white;
+    margin: 0;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 1.1;
+}
+.section-primary80 .downloadWindows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #cf2b25;
+    padding: 8px 70px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.section-primary80 .downloadWindows:hover{
+    background-color: #ff4d4d;
+    transform: scale(102%);
+}
+.downloadWindows img{
+    width: 20px;
+    cursor: pointer;
+    height: auto;
+}
+.downloadWindows button{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section-primary80 p{
+    color: rgb(202, 202, 202);
+    font-size : 15px;
+    font-weight: 500;
+}
+
+.section-secondary{
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color: transparent;
+    padding: 50px 0;
+}
+.section-secondary .section-secondary80{
+    margin-top: 50px;
+    width: 60%;
+}
+.section-secondary80 img{
+    width: 80%;
+    border-radius: 30px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@-webkit-keyframes FadeIn {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@-moz-keyframes FadeIn {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+@keyframes FadeIn {
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
